@@ -1,0 +1,14 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "kbh-tailwind-demo",
+    "items": {
+        "path": "kbh-tailwind-demo",
+        "includes": [
+            {
+                "name": "DefaultRenderingHost",
+                "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
+                "scope": "singleItem"
+            }
+        ]
+    }
+}

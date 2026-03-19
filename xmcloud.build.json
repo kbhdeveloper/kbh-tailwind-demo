@@ -7,8 +7,11 @@
       "enabled": true,
       "type": "sxa",
       "buildCommand": "build",
-      "runCommand": "start"
+      "runCommand": "next:start"
     }
+  },
+  "deployItems": {
+    "modules": ["kbh-tailwind-demo"]
   },
   "postActions": {
     "actions": {
@@ -26,5 +29,6 @@
         "indexNames": []
       }
     }
-  }
+  },
+  "authoringPath": "./authoring"
 }

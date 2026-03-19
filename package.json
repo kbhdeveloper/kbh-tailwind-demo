@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-sitemap --config next-sitemap.config.js",
+    "build": "next build",
+    "build:sitemap": "next build && next-sitemap --config next-sitemap.config.js",
     "start": "next start",
+    "next:start": "node .next/standalone/server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format:fix": "prettier --write './**/*.{css,scss,md,mdx,json}'"
